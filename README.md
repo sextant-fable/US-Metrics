@@ -16,7 +16,6 @@ Official open-source implementation of ultrasound-native quality metrics based o
 
 ## Framework
 
-> Put your paper framework figure at: `assets/us-metrics-framework.png`
 
 <p align="center">
   <img src="assets/us-metrics-framework.png" alt="US-Metrics Framework" width="100%" />
@@ -104,7 +103,6 @@ us-metrics nrq \
 ## Backbone and Weights
 
 - TinyUSFM codebase (official): [https://github.com/MacDunno/TinyUSFM](https://github.com/MacDunno/TinyUSFM)
-- TinyUSFM checkpoint (external): [Google Drive](https://drive.google.com/file/d/15R3hnH0ILO39rE1gs-UgJonRqbaYTSRB/view?usp=sharing)
 - Optional pre-fitted NRQ models can be released in `weights/nrq/*.npz`
 
 ---

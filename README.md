@@ -38,8 +38,7 @@ pytest -q
 Weights are not stored in this repository.
 
 - TinyUSFM pretrained checkpoint (external link): [Google Drive](https://drive.google.com/file/d/15R3hnH0ILO39rE1gs-UgJonRqbaYTSRB/view?usp=sharing)
-- TinyUSFM codebase is maintained in a separate repository. Please reference your official TinyUSFM repo link here:
-  - `https://github.com/<your-account>/<TinyUSFM-repo>`
+- TinyUSFM codebase (official repository): [MacDunno/TinyUSFM](https://github.com/MacDunno/TinyUSFM)
 
 ## Optional: Pre-fitted NRQ Models
 
@@ -138,6 +137,38 @@ If you use this repository, these metrics, or the provided NRQ models, please ci
 ```
 
 Please replace `<Author List>` and the BibTeX key with your final publication metadata.
+
+Please also cite the related backbone and prior works:
+
+```bibtex
+@article{tinyusfm,
+  author={Ma, Chen and Jiao, Jing and Liang, Shuyu and Fu, Junhu and Wang, Qin and Li, Zeju and Wang, Yuanyuan and Guo, Yi},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  title={TinyUSFM: Towards Compact and Efficient Ultrasound Foundation Models},
+  year={2026},
+  pages={1-14},
+  doi={10.1109/JBHI.2026.3678309}
+}
+
+@article{usfm,
+  title={Usfm: A universal ultrasound foundation model generalized to tasks and organs towards label efficient image analysis},
+  author={Jiao, Jing and Zhou, Jin and Li, Xiaokang and Xia, Menghua and Huang, Yi and Huang, Lihong and Wang, Na and Zhang, Xiaofan and Zhou, Shichong and Wang, Yuanyuan and others},
+  journal={Medical image analysis},
+  volume={96},
+  pages={103202},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@incollection{iugc,
+  title={Unlabeled Data-Driven Fetal Landmark Detection in Intrapartum Ultrasound},
+  author={Ma, Chen and Li, Yunshu and Guo, Bowen and Jiao, Jing and Huang, Yi and Wang, Yuanyuan and Guo, Yi},
+  booktitle={Intrapartum Ultrasound Grand Challenge},
+  pages={14--23},
+  year={2025},
+  publisher={Springer}
+}
+```
 
 ## License
 

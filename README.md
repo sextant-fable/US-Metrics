@@ -5,8 +5,6 @@
 - `TinyUSFM-uLPIPS` (full-reference)
 - `TinyUSFM-NRQ` (no-reference, with clean-manifold fitting + scoring)
 
-This package intentionally excludes experimental pipelines (distortion generation, PSNR alignment, downstream task evaluation, plotting, MICCAI result artifacts).
-
 ## Features
 
 - Independent package layout (`src/us_metrics/...`)

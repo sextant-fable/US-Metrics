@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "us-metrics"
+version = "0.1.0"
+description = "Ultrasound quality metrics: TinyUSFM-uLPIPS (FR) and TinyUSFM-NRQ (NR)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "US-Metrics Authors" }
+]
+keywords = ["ultrasound", "image-quality", "IQA", "LPIPS", "NRQ", "TinyUSFM"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Image Processing"
+]
+dependencies = [
+  "numpy>=1.23",
+  "opencv-python>=4.8",
+  "scipy>=1.10",
+  "scikit-learn>=1.2",
+  "torch>=2.0",
+  "timm>=0.5.4"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0"
+]
+
+[project.scripts]
+us-metrics = "us_metrics.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

@@ -38,6 +38,28 @@ pytest -q
 Weights are not stored in this repository.
 
 - TinyUSFM pretrained checkpoint (external link): [Google Drive](https://drive.google.com/file/d/15R3hnH0ILO39rE1gs-UgJonRqbaYTSRB/view?usp=sharing)
+- TinyUSFM codebase is maintained in a separate repository. Please reference your official TinyUSFM repo link here:
+  - `https://github.com/<your-account>/<TinyUSFM-repo>`
+
+## Optional: Pre-fitted NRQ Models
+
+If your NRQ organ models are small, you can open-source them directly in this repository (for example under `weights/nrq/`):
+
+```text
+weights/
+  nrq/
+    Thyroid.npz
+    Cardiac.npz
+```
+
+Then score directly with:
+
+```bash
+us-metrics nrq \
+  --img /path/to/image.png \
+  --ckpt /path/to/TinyUSFM.pth \
+  --models ./weights/nrq
+```
 
 ## Data Layout for `fit-nrq`
 
@@ -102,7 +124,21 @@ us-metrics nrq \
 - uLPIPS: `radius = 3`, `tau = 20`
 - NRQ: `patch = 224`, `stride = 112`, `PCA d = 128`, `GMM K = 4`, `topk_frac = 0.15`
 
+## Citation
+
+If you use this repository, these metrics, or the provided NRQ models, please cite the paper:
+
+```bibtex
+@inproceedings{your_key_2026_usmetrics,
+  title     = {Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model},
+  author    = {<Author List>},
+  booktitle = {MICCAI},
+  year      = {2026}
+}
+```
+
+Please replace `<Author List>` and the BibTeX key with your final publication metadata.
+
 ## License
 
 Apache-2.0.
-

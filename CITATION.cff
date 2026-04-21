@@ -3,9 +3,9 @@ title: "US-Metrics"
 message: "If you use US-Metrics, please cite this software and the associated TinyUSFM metrics paper."
 type: software
 authors:
-  - family-names: "US-Metrics"
-    given-names: "Contributors"
-repository-code: "https://github.com/your-org/us-metrics"
+  - family-names: "<Your Family Name>"
+    given-names: "<Your Given Name>"
+repository-code: "https://github.com/sextant-fable/US-Metrics"
 license: "Apache-2.0"
 version: "0.1.0"
 date-released: 2026-04-21
@@ -13,6 +13,6 @@ preferred-citation:
   type: article
   title: "Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model"
   authors:
-    - family-names: "Anonymous"
-      given-names: "Authors"
+    - family-names: "<Author1 Family Name>"
+      given-names: "<Author1 Given Name>"
   year: 2026

@@ -32,4 +32,4 @@ The following are intentionally excluded: distortion generation, PSNR alignment,
 
 If you use this repository, metrics, or provided NRQ models, please cite:
 
-`Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model` (MICCAI 2026)
+`Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model`

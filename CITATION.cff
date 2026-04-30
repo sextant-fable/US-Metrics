@@ -13,8 +13,27 @@ preferred-citation:
   type: article
   title: "Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model"
   authors:
-    - family-names: "<Author1 Family Name>"
-      given-names: "<Author1 Given Name>"
+    - family-names: "Huang"
+      given-names: "Ziyang"
+    - family-names: "Li"
+      given-names: "Bingyan"
+    - family-names: "Ma"
+      given-names: "Chen"
+    - family-names: "Liu"
+      given-names: "Tianyi"
+    - family-names: "Zhai"
+      given-names: "Yihui"
+    - family-names: "Xu"
+      given-names: "Hong"
+    - family-names: "Guo"
+      given-names: "Yi"
+    - family-names: "Li"
+      given-names: "Zeju"
+    - family-names: "Wang"
+      given-names: "Yuanyuan"
+  journal: "arXiv preprint arXiv:2604.19512"
+  doi: "10.48550/arXiv.2604.19512"
+  url: "https://arxiv.org/abs/2604.19512"
   year: 2026
 references:
   - type: article

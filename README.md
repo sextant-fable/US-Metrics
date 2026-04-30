@@ -10,6 +10,8 @@
 Official open-source implementation of ultrasound-native quality metrics based on TinyUSFM:
 **TinyUSFM-uLPIPS (FR)** and **TinyUSFM-NRQ (NR)**.
 
+Paper: [Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model (arXiv:2604.19512)](https://arxiv.org/abs/2604.19512)
+
 </div>
 
 ---
@@ -112,11 +114,13 @@ us-metrics nrq \
 If you use this repository, metrics, or released NRQ models, please cite:
 
 ```bibtex
-@inproceedings{your_key_2026_usmetrics,
-  title     = {Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model},
-  author    = {<Author List>},
-  booktitle = {MICCAI},
-  year      = {2026}
+@article{huang2026defining,
+  title   = {Defining Robust Ultrasound Quality Metrics via an Ultrasound Foundation Model},
+  author  = {Huang, Ziyang and Li, Bingyan and Ma, Chen and Liu, Tianyi and Zhai, Yihui and Xu, Hong and Guo, Yi and Li, Zeju and Wang, Yuanyuan},
+  journal = {arXiv preprint arXiv:2604.19512},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2604.19512},
+  url     = {https://arxiv.org/abs/2604.19512}
 }
 ```
 
